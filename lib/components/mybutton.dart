@@ -11,12 +11,12 @@ class MyButton extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.all(10),
         decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.primary,
+            color: Theme.of(context).colorScheme.secondary,
             borderRadius: BorderRadius.circular(12)),
         child: Icon(
           Icons.arrow_forward_rounded,
           size: 30,
-          color: Colors.white,
+          //color: Colors.white,
         ),
       ),
     );

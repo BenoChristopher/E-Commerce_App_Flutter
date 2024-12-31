@@ -31,7 +31,8 @@ class IntroPage extends StatelessWidget {
             Text(
               'Premium Quality Products',
               style: TextStyle(
-                  color: Theme.of(context).colorScheme.secondary, fontSize: 15),
+                  color: Theme.of(context).colorScheme.inverseSurface,
+                  fontSize: 15),
             ),
             SizedBox(
               height: 80,
