@@ -56,14 +56,20 @@ class ProductTile extends StatelessWidget {
                     decoration: BoxDecoration(
                         color: Theme.of(context).colorScheme.secondary,
                         borderRadius: BorderRadius.all(Radius.circular(12))),
-                    child: Icon(Icons.favorite)),
+                    child: Image.asset(product.imagepath)
+                    //Icon(Icons.favorite)
+
+                    ),
               ),
               SizedBox(
                 height: 20,
               ),
               Text(
                 product.name,
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+              ),
+              SizedBox(
+                height: 10,
               ),
               Text(product.description),
             ],
